@@ -1,0 +1,53 @@
+.schedule {
+    margin: auto;
+    width: 50%;
+    /* border: 3px solid grey; */
+    padding: 10px;
+    background-color: 
+    #363636;
+    color: white;
+}
+
+.main-heading {
+    font-size: 25px;
+    text-align: center;
+    color:#126380;
+}
+
+/* .heading {
+    color: white !important;
+    font-size: 18px;
+} */
+
+.patient {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.time {
+    font-size: 15px;
+    margin-bottom: -8px;
+    margin-top: 25px;
+    border-style: solid;
+    border-width: 0px;
+    border-radius: 10px;
+    /* width: 15%; */
+    padding: 15px;
+    color: white;
+    /* background-color: #f0f9fd; */
+    background-image: linear-gradient(141deg, #9fb8ad 0%, #1fc8db 51%, #2cb5e8 75%);
+}
+
+.date {
+    font-size: 15px;
+    margin-bottom: 0px;
+    margin-top: 25px;
+    border-style: solid;
+    border-width: 0px;
+    border-radius: 10px;
+    /* width: 15%; */
+    padding: 15px;
+    color: white;
+    /* background-color: #f0f9fd; */
+    background-image: linear-gradient(141deg, #9fb8ad 0%, #1fc8db 51%, #2cb5e8 75%);
+}

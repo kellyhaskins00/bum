@@ -1,0 +1,106 @@
+/* Background color for nav bar  #1881a7*/
+
+.Modal {
+  position: absolute;
+  float: left;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  display: inline-block;
+/*built in css*/
+  font-family: "Open Sans", sans-serif;
+  max-width: 325px;
+  margin: auto;
+  max-height: calc(70% - 96px);
+  outline: none;
+  min-width: 305px;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  border-radius: 5px;
+  position: fixed;
+  z-index: 1300;
+  right: 0px;
+  bottom: 0px;
+  top: 0px;
+  left: 0px;
+  box-shadow: 0px 11px 15px -7px rgba(0, 0, 0, 0.2),
+    0px 24px 38px 3px rgba(0, 0, 0, 0.14), 0px 9px 46px 8px rgba(0, 0, 0, 0.12);
+}
+
+.Overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 1;
+  transition: opacity 225ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.ButtonCal {
+  color: #1881a7;
+  padding: 6px 8px;
+  font-size: 0.875rem;
+  min-width: 64px;
+  box-sizing: border-box;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,
+    box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,
+    border 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  font-weight: 500;
+  line-height: 1.75;
+  border-radius: 4px;
+  letter-spacing: 0.02857em;
+  text-transform: uppercase;
+  border: 0;
+  cursor: pointer;
+  margin: 0;
+  display: inline-flex;
+  outline: none;
+  padding: 0;
+  position: relative;
+  align-items: center;
+  user-select: none;
+  border-radius: 0;
+  vertical-align: middle;
+  -moz-appearance: none;
+  justify-content: center;
+  text-decoration: none;
+  background-color: transparent;
+  -webkit-appearance: none;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.ButtonCal:hover {
+  background-color: "#ccc";
+}
+
+.DayPicker-wrapper {
+  outline: none;
+}
+
+.DateButton {
+  display: flex;
+  color: #1881a7;
+  margin-bottom: 20px;
+  border: none;
+  font-family: inherit;
+  font-size: 1.1em;
+  /* padding: 5px; */
+  text-decoration: none;
+  text-align: center;
+  border-bottom: 2px solid #ccc;
+  cursor: pointer;
+  outline: none;
+}
+
+.nextButton {
+  color: white !important;
+  background-color: #1881a7 !important;
+}
+
+.nextButton:hover {
+  background-color: #126380 !important;
+}

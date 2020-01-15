@@ -1,0 +1,49 @@
+.Form {
+    margin: 50px 0 0 250px;
+    position: relative;
+  }
+  
+  .Render {
+    width: 700px;
+    background-color: rgb(226, 226, 226);
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin: -400px 0 0 500px;
+    /* display: flex; */
+    flex-direction: column;
+    text-align: center;
+    margin-top: -300px;
+    position: relative;
+    z-index: -2;
+  }
+  
+  .Inputs {
+    width: 200px;
+  }
+
+  input {
+    padding: 10px;
+    background: #fff;
+    color: #525865;
+    border-radius: 4px;
+    border: 1px solid #d1d1d1;
+    box-shadow: inset 1px 2px 8px rgba(0, 0, 0, 0.07);
+    font-family: inherit;
+    font-size: 1em;
+    line-height: 1.45;
+    outline: none;
+    padding: 0.6em 1.45em 0.7em;
+    -webkit-transition: .18s ease-out;
+    -moz-transition: .18s ease-out;
+    -o-transition: .18s ease-out;
+    transition: .18s ease-out;
+  }
+
+  input:hover {
+  box-shadow: inset 1px 2px 8px rgba(0, 0, 0, 0.5);
+}
+input:focus {
+  color: #4b515d;
+  border: 1px solid #B8B6B6;
+  box-shadow: inset 1px 2px 4px rgba(0, 0, 0, 0.01), 0px 0px 8px rgba(0, 0, 0, 0.2);
+}

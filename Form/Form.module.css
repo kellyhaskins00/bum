@@ -1,0 +1,18 @@
+.Form {
+  margin: 50px 0 0 250px;
+}
+
+.Render {
+  width: 700px;
+  background-color: rgb(226, 226, 226);
+  border-radius: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: -400px 0 0 500px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.Inputs {
+  width: 200px;
+}
